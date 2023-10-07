@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 36px; 
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+  
+  justify-content: space-between; 
+  align-items: center;
+
+  background-image: url('ayurveda.jpg');
+  background-size:  1250px; 
+  background-position: center; 
+  opacity: 0.8;
+}
+
+.box1 {
+  flex: 1; 
+  padding: 20px; 
+  text-align: center; 
+  width: 100vw;
+  font-family:'Noto Sans', sans-serif;
+
+}
+.box2 {
+  flex: 1; 
+  padding: 20px; 
+  text-align: center; 
+  width: 100vw;
+  font-family:'Noto Sans', sans-serif;
+}
+.box3 {
+  flex: 1; 
+  padding: 20px; 
+  text-align: center; 
+  width: 100vw;
+  font-family:'Noto Sans', sans-serif;
+}
+.box4 {
+  display: flex;
+  flex: 1; 
+  padding: 20px; 
+  text-align: center; 
+  width: 100vw;
+  font-family:'Noto Sans', sans-serif;
+  align-items: center;
+  
+}
+
+.TestBox{
+  
+  border: 5px solid #000000; 
+  position: sticky;
+  
+  width: 20vw;
+  bottom: 0px;
+}
+
+.round-button {
+  width: auto; 
+  height: auto;
+  left:40vw;
+  border-radius: 50%; 
+  background-color: #ccd2d8; 
+  color: black; 
+  font-size: 16px; 
+  text-align: center; 
+  line-height: 100px; 
+  cursor: pointer; 
+}
+
+.round-button:hover {
+  background-color: #0056b3; 
+}
+
+.container img {
+  max-width: 100%; 
+  height: auto; 
+  margin-bottom: 20px; 
+}
